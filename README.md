@@ -1,5 +1,6 @@
 # SIADS691-Covid-Real-Estate
 SIADS691 project 
+
 THIS NOTEBOOK SUCCESSFULLY PULLS ALL SALES TRANSACTIONS OF HOMES IN EACH OF THE 74 COUNTIES IN CALIFORNIA.
 
 I’ve named each file with the geoID of the county. Total 74 counties are there in California as per ATTOM. 71 of them contain transactions between $500K and $5M between 1 Oct 2019 and 1 April 2021. The others have 0 transactions - too small
