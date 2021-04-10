@@ -12,7 +12,8 @@ The following variables in the code can be easily changed to expand or contract 
 
 Set the maximum number of records fetched with each API call to be 50,000 which is more than sufficient. This is through the ‘pagesize’ query parameter.
 
---------------------ignore below----------------\n
+--------------------ignore below----------------
+
 API Challenges:
 1) Data is too granulated
 First find the geoID for all counties using the Area endpoint. Then iterate over geoID for all transactions using /properties/sale endpoint
