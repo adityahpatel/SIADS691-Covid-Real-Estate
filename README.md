@@ -1,7 +1,7 @@
 # SIADS691-Covid-Real-Estate
 Aditya & Chris
 
-THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS OF IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
+THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
 For each county, 1 text file is generated. This means 74 files will be generated. 71 are generated as 3 counties have no transactions with our criteria
 
 The following variables in the code can be easily changed to expand or contract search results. Currently we set:
@@ -13,16 +13,15 @@ The following variables in the code can be easily changed to expand or contract 
 Set the maximum number of records fetched with each API call to be 50,000 which is more than sufficient. This is through the ‘pagesize’ query parameter.
 
 --------------------Ignore below----------------
-Challenges:
-Data is too granulated
+API Challenges:
+1) Data is too granulated
 First find the geoID for all counties using the Area endpoint. Then iterate over geoID for all transactions using /properties/sale endpoint
- Could not iterate over 74 counties with 74 API calls. After about 15 calls, the status header itself was not returned. 
+
+2) Could not iterate over 74 counties with 74 API calls. After about 15 calls, the status header itself was not returned. 
 Solution: Ran in batches of 10 api calls. So 10 counties in 1 for loop. Do this 7 times.
-Usage limits exceeded
+
+3) Usage limits exceeded
 Solution: created another developer account for new API key
 
-Following can be changed in the code easily:
-From date and to date
-Prices of housing. $500 seemed reasonable though.
 
 
