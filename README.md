@@ -1,7 +1,7 @@
 # SIADS691-Covid-Real-Estate
 Aditya & Chris
 
-CONCLUSION: THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS OF IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
+THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS OF IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
 For each county, 1 text file is generated. This means 74 files will be generated. 71 are generated as 3 counties have no transactions with our criteria
 
 The following variables in the code can be easily changed to expand or contract search results. Currently we set:
