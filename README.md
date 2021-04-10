@@ -1,15 +1,19 @@
 # SIADS691-Covid-Real-Estate
 Aditya & Chris
 
-THIS NOTEBOOK SUCCESSFULLY PULLS ALL SALES TRANSACTIONS OF HOMES IN EACH OF THE 74 COUNTIES IN CALIFORNIA.
+CONCLUSION: THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS OF IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
+For each county, 1 text file is generated. This means 74 files will be generated. 71 are generated as 3 counties have no transactions with our criteria
 
-Named each file with the geoID of the county. Total 74 counties are there in California as per ATTOM. 71 of them contain transactions between $500K and $5M between 1 Oct 2019 and 1 April 2021. The others have 0 transactions - too small
+The following variables in the code can be easily changed to expand or contract search results. Currently we set:
+1) FROM DATE - 1st Oct 2019
+2) TO DATE - 1st April 2021
+3) Minimum transaction size - $500K
+4) Maximum transaction size - $5M
 
 Set the maximum number of records fetched with each API call to be 50,000 which is more than sufficient. This is through the ‘pagesize’ query parameter.
 
+--------------------Ignore below----------------
 Challenges:
-
-
 Data is too granulated
 First find the geoID for all counties using the Area endpoint. Then iterate over geoID for all transactions using /properties/sale endpoint
  Could not iterate over 74 counties with 74 API calls. After about 15 calls, the status header itself was not returned. 
