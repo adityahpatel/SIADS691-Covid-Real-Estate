@@ -33,7 +33,7 @@ Solution: For year 2019, make 74 API calls. 10 of those truncated i.e. fetched o
 API calls with time duration of 2 months. 1 of those 6 had more than 10,000 records in 2 months, so had to split again and run API calls for that county CO06037. Turns out
 that was Los Angeles county. Total of 110 API calls were made in semi-automatic/manual way. This is excluding over other exploratory calls to figure out which county gave how many transactions. We had a limit of monthly 250 calls and we exhausted those with 2019 year alone!
 
-5) Hit monthly limit of 250 calls. 
+5) Hit monthly limit of 250 calls. We had FULL data without truncation but only for 1 year i.e. 2019. Went on other macbook and created new attom api developer account in spouse's name and started fetching data for 2020. Just 250 calls is too low.  
 
 
 
