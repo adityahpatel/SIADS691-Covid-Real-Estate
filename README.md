@@ -15,7 +15,7 @@ The following variables in the code can be easily changed to expand or contract 
 
 Set the maximum number of records fetched with each API call to be 50,000 which is more than sufficient. This is through the ‘pagesize’ query parameter.
 
-####  -------------------- ignore below --------------------------
+####  -------------------- Documentation on challenges --------------------------
 
 API Challenges:
 
@@ -27,6 +27,14 @@ Solution: Ran in batches of 10 api calls. So 10 counties in 1 for loop. Do this 
 
 3) Usage limits exceeded
 Solution: created another developer account for new API key
+
+4) Huge challenge was API call returning 10,000 records maximum. Out of 74 counties, no way to know which county has how many transactions. 
+Solution: For year 2019, make 74 API calls. 10 of those truncated i.e. fetched only 10,000 records. 6 of those 10 had over 10,000 transactions in 6 months, so made more 
+API calls with time duration of 2 months. 1 of those 6 had more than 10,000 records in 2 months, so had to split again and run API calls for that county CO06037. Turns out
+that was Los Angeles county. Total of 110 API calls were made in semi-automatic/manual way. This is excluding over other exploratory calls to figure out which county gave how many transactions. We had a limit of monthly 250 calls and we exhausted those with 2019 year alone!
+
+5) Hit monthly limit of 250 calls. 
+
 
 
 
