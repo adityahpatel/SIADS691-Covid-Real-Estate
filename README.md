@@ -28,12 +28,14 @@ Solution: Ran in batches of 10 api calls. So 10 counties in 1 for loop. Do this 
 3) Usage limits exceeded
 Solution: created another developer account for new API key
 
-4) Huge challenge was API call returning 10,000 records maximum. Out of 74 counties, no way to know which county has how many transactions. 
+4) Determining how to run API calls so as to not meet the 250 call limit. How to split up the counties? Some had 100 transactions and some had 100,000 transactions. But we wouldn't know which county had how much without making API call. So used up a lot of calls in this process. 
+
+6) Problem we ran into was API call returns 10,000 records maximum. 
 Solution: For year 2019, make 74 API calls. 10 of those truncated i.e. fetched only 10,000 records. 6 of those 10 had over 10,000 transactions in 6 months, so made more 
 API calls with time duration of 2 months. 1 of those 6 had more than 10,000 records in 2 months, so had to split again and run API calls for that county CO06037. Turns out
 that was Los Angeles county. Total of 110 API calls were made in semi-automatic/manual way. This is excluding over other exploratory calls to figure out which county gave how many transactions. We had a limit of monthly 250 calls and we exhausted those with 2019 year alone!
 
-5) Hit monthly limit of 250 calls. 
+5) Hit monthly limit of 250 calls. We had FULL data without truncation but only for 1 year i.e. 2019. Went on other macbook and created new attom api developer account in spouse's name and started fetching data for 2020. Just 250 calls is too low.  
 
 
 
