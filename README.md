@@ -38,5 +38,21 @@ that was Los Angeles county. Total of 110 API calls were made in semi-automatic/
 5) Hit monthly limit of 250 calls. We had FULL data without truncation but only for 1 year i.e. 2019. Went on other macbook and created new attom api developer account in spouse's name and started fetching data for 2020. Just 250 calls is too low.  
 
 
+####  -------------------- Data Sets --------------------------
 
+COVID-19 DATASETS:
 
+1) CDC_COVID-19_Case_Surveillance_Public_Use_Data_with_Geography.csv 
+( source: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4 )
+
+2) jh_time_series_covid19_confirmed_US.csv , jh_time_series_covid19_deaths_US.csv
+( source: )
+
+3) nyt-us-counties.csv ( source: https://github.com/nytimes/covid-19-data)
+
+INCOME DATASETS:
+
+1) est19-all_income.xls , est19-ca_income.csv , est19-nj_income.csv , est19-ny_income.csv
+( source: https://github.com/CSSEGISandData/COVID-19  )
+
+REAL ESTATE DATASETS:
