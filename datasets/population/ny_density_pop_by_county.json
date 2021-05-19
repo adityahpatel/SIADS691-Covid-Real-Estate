@@ -1,0 +1,374 @@
+[
+  {
+    "CTYNAME": "Kings County",
+    "pop2021": 2523560,
+    "GrowthRate": "0.5470",
+    "popDensity": "2380.2084"
+  },
+  {
+    "CTYNAME": "Queens County",
+    "pop2021": 2212360,
+    "GrowthRate": "-0.9997",
+    "popDensity": "2086.6862"
+  },
+  {
+    "CTYNAME": "New York County",
+    "pop2021": 1628010,
+    "GrowthRate": "2.4698",
+    "popDensity": "1535.5304"
+  },
+  {
+    "CTYNAME": "Suffolk County",
+    "pop2021": 1468140,
+    "GrowthRate": "-1.7533",
+    "popDensity": "1384.7418"
+  },
+  {
+    "CTYNAME": "Bronx County",
+    "pop2021": 1390450,
+    "GrowthRate": "0.2271",
+    "popDensity": "1311.4650"
+  },
+  {
+    "CTYNAME": "Nassau County",
+    "pop2021": 1355700,
+    "GrowthRate": "1.0457",
+    "popDensity": "1278.6890"
+  },
+  {
+    "CTYNAME": "Westchester County",
+    "pop2021": 966092,
+    "GrowthRate": "1.6296",
+    "popDensity": "911.2128"
+  },
+  {
+    "CTYNAME": "Erie County",
+    "pop2021": 916672,
+    "GrowthRate": "-0.2698",
+    "popDensity": "864.6002"
+  },
+  {
+    "CTYNAME": "Monroe County",
+    "pop2021": 739582,
+    "GrowthRate": "-0.6713",
+    "popDensity": "697.5698"
+  },
+  {
+    "CTYNAME": "Richmond County",
+    "pop2021": 475909,
+    "GrowthRate": "1.3402",
+    "popDensity": "448.8748"
+  },
+  {
+    "CTYNAME": "Onondaga County",
+    "pop2021": 458286,
+    "GrowthRate": "-1.9778",
+    "popDensity": "432.2529"
+  },
+  {
+    "CTYNAME": "Orange County",
+    "pop2021": 390568,
+    "GrowthRate": "4.5851",
+    "popDensity": "368.3817"
+  },
+  {
+    "CTYNAME": "Rockland County",
+    "pop2021": 326323,
+    "GrowthRate": "4.4237",
+    "popDensity": "307.7861"
+  },
+  {
+    "CTYNAME": "Albany County",
+    "pop2021": 303348,
+    "GrowthRate": "-0.2427",
+    "popDensity": "286.1162"
+  },
+  {
+    "CTYNAME": "Dutchess County",
+    "pop2021": 294776,
+    "GrowthRate": "-0.9915",
+    "popDensity": "278.0312"
+  },
+  {
+    "CTYNAME": "Saratoga County",
+    "pop2021": 229249,
+    "GrowthRate": "4.1525",
+    "popDensity": "216.2264"
+  },
+  {
+    "CTYNAME": "Oneida County",
+    "pop2021": 227065,
+    "GrowthRate": "-3.2762",
+    "popDensity": "214.1665"
+  },
+  {
+    "CTYNAME": "Niagara County",
+    "pop2021": 207723,
+    "GrowthRate": "-4.0430",
+    "popDensity": "195.9232"
+  },
+  {
+    "CTYNAME": "Broome County",
+    "pop2021": 187614,
+    "GrowthRate": "-6.4181",
+    "popDensity": "176.9565"
+  },
+  {
+    "CTYNAME": "Ulster County",
+    "pop2021": 175883,
+    "GrowthRate": "-3.5824",
+    "popDensity": "165.8919"
+  },
+  {
+    "CTYNAME": "Rensselaer County",
+    "pop2021": 157576,
+    "GrowthRate": "-1.1071",
+    "popDensity": "148.6248"
+  },
+  {
+    "CTYNAME": "Schenectady County",
+    "pop2021": 155739,
+    "GrowthRate": "0.5670",
+    "popDensity": "146.8922"
+  },
+  {
+    "CTYNAME": "Chautauqua County",
+    "pop2021": 125765,
+    "GrowthRate": "-6.6506",
+    "popDensity": "118.6209"
+  },
+  {
+    "CTYNAME": "Oswego County",
+    "pop2021": 116342,
+    "GrowthRate": "-4.7447",
+    "popDensity": "109.7332"
+  },
+  {
+    "CTYNAME": "Ontario County",
+    "pop2021": 109855,
+    "GrowthRate": "1.5521",
+    "popDensity": "103.6147"
+  },
+  {
+    "CTYNAME": "St. Lawrence County",
+    "pop2021": 106566,
+    "GrowthRate": "-4.6918",
+    "popDensity": "100.5125"
+  },
+  {
+    "CTYNAME": "Jefferson County",
+    "pop2021": 105770,
+    "GrowthRate": "-9.2819",
+    "popDensity": "99.7617"
+  },
+  {
+    "CTYNAME": "Tompkins County",
+    "pop2021": 101702,
+    "GrowthRate": "-0.0374",
+    "popDensity": "95.9248"
+  },
+  {
+    "CTYNAME": "Putnam County",
+    "pop2021": 97332,
+    "GrowthRate": "-2.3428",
+    "popDensity": "91.8030"
+  },
+  {
+    "CTYNAME": "Steuben County",
+    "pop2021": 94417,
+    "GrowthRate": "-4.6341",
+    "popDensity": "89.0536"
+  },
+  {
+    "CTYNAME": "Wayne County",
+    "pop2021": 89354,
+    "GrowthRate": "-4.6901",
+    "popDensity": "84.2782"
+  },
+  {
+    "CTYNAME": "Chemung County",
+    "pop2021": 82498,
+    "GrowthRate": "-7.1961",
+    "popDensity": "77.8117"
+  },
+  {
+    "CTYNAME": "Clinton County",
+    "pop2021": 80097,
+    "GrowthRate": "-2.4350",
+    "popDensity": "75.5471"
+  },
+  {
+    "CTYNAME": "Sullivan County",
+    "pop2021": 75498,
+    "GrowthRate": "-2.5530",
+    "popDensity": "71.2093"
+  },
+  {
+    "CTYNAME": "Cayuga County",
+    "pop2021": 75486,
+    "GrowthRate": "-5.5185",
+    "popDensity": "71.1980"
+  },
+  {
+    "CTYNAME": "Cattaraugus County",
+    "pop2021": 74899,
+    "GrowthRate": "-6.6307",
+    "popDensity": "70.6443"
+  },
+  {
+    "CTYNAME": "Madison County",
+    "pop2021": 70589,
+    "GrowthRate": "-3.8821",
+    "popDensity": "66.5792"
+  },
+  {
+    "CTYNAME": "Warren County",
+    "pop2021": 63402,
+    "GrowthRate": "-3.4463",
+    "popDensity": "59.8004"
+  },
+  {
+    "CTYNAME": "Livingston County",
+    "pop2021": 62316,
+    "GrowthRate": "-4.4819",
+    "popDensity": "58.7761"
+  },
+  {
+    "CTYNAME": "Washington County",
+    "pop2021": 61064,
+    "GrowthRate": "-3.6177",
+    "popDensity": "57.5952"
+  },
+  {
+    "CTYNAME": "Herkimer County",
+    "pop2021": 60531,
+    "GrowthRate": "-6.1098",
+    "popDensity": "57.0925"
+  },
+  {
+    "CTYNAME": "Otsego County",
+    "pop2021": 58859,
+    "GrowthRate": "-5.4611",
+    "popDensity": "55.5155"
+  },
+  {
+    "CTYNAME": "Columbia County",
+    "pop2021": 58813,
+    "GrowthRate": "-6.6993",
+    "popDensity": "55.4721"
+  },
+  {
+    "CTYNAME": "Genesee County",
+    "pop2021": 56866,
+    "GrowthRate": "-5.1095",
+    "popDensity": "53.6357"
+  },
+  {
+    "CTYNAME": "Fulton County",
+    "pop2021": 52883,
+    "GrowthRate": "-4.6380",
+    "popDensity": "49.8790"
+  },
+  {
+    "CTYNAME": "Franklin County",
+    "pop2021": 49508,
+    "GrowthRate": "-4.1379",
+    "popDensity": "46.6957"
+  },
+  {
+    "CTYNAME": "Montgomery County",
+    "pop2021": 48875,
+    "GrowthRate": "-2.8465",
+    "popDensity": "46.0986"
+  },
+  {
+    "CTYNAME": "Tioga County",
+    "pop2021": 47727,
+    "GrowthRate": "-6.4323",
+    "popDensity": "45.0159"
+  },
+  {
+    "CTYNAME": "Cortland County",
+    "pop2021": 47299,
+    "GrowthRate": "-4.0179",
+    "popDensity": "44.6122"
+  },
+  {
+    "CTYNAME": "Greene County",
+    "pop2021": 46802,
+    "GrowthRate": "-4.7559",
+    "popDensity": "44.1434"
+  },
+  {
+    "CTYNAME": "Chenango County",
+    "pop2021": 46731,
+    "GrowthRate": "-7.2779",
+    "popDensity": "44.0764"
+  },
+  {
+    "CTYNAME": "Allegany County",
+    "pop2021": 45609,
+    "GrowthRate": "-6.8653",
+    "popDensity": "43.0182"
+  },
+  {
+    "CTYNAME": "Delaware County",
+    "pop2021": 43353,
+    "GrowthRate": "-9.4700",
+    "popDensity": "40.8903"
+  },
+  {
+    "CTYNAME": "Orleans County",
+    "pop2021": 39746,
+    "GrowthRate": "-7.2460",
+    "popDensity": "37.4882"
+  },
+  {
+    "CTYNAME": "Wyoming County",
+    "pop2021": 39531,
+    "GrowthRate": "-6.1601",
+    "popDensity": "37.2854"
+  },
+  {
+    "CTYNAME": "Essex County",
+    "pop2021": 36079,
+    "GrowthRate": "-8.3359",
+    "popDensity": "34.0295"
+  },
+  {
+    "CTYNAME": "Seneca County",
+    "pop2021": 33690,
+    "GrowthRate": "-4.4689",
+    "popDensity": "31.7762"
+  },
+  {
+    "CTYNAME": "Schoharie County",
+    "pop2021": 30705,
+    "GrowthRate": "-6.0607",
+    "popDensity": "28.9608"
+  },
+  {
+    "CTYNAME": "Lewis County",
+    "pop2021": 25916,
+    "GrowthRate": "-4.2878",
+    "popDensity": "24.4438"
+  },
+  {
+    "CTYNAME": "Yates County",
+    "pop2021": 24837,
+    "GrowthRate": "-2.1241",
+    "popDensity": "23.4261"
+  },
+  {
+    "CTYNAME": "Schuyler County",
+    "pop2021": 17653,
+    "GrowthRate": "-3.7144",
+    "popDensity": "16.6502"
+  },
+  {
+    "CTYNAME": "Hamilton County",
+    "pop2021": 4384,
+    "GrowthRate": "-9.6269",
+    "popDensity": "4.1350"
+  }
+]

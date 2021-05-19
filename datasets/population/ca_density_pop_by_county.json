@@ -1,0 +1,350 @@
+[
+  {
+    "CTYNAME": "Los Angeles County",
+    "pop2021": 9969510,
+    "GrowthRate": "1.4889",
+    "popDensity": "13488.8513"
+  },
+  {
+    "CTYNAME": "San Diego County",
+    "pop2021": 3347270,
+    "GrowthRate": "7.8648",
+    "popDensity": "4528.8913"
+  },
+  {
+    "CTYNAME": "Orange County",
+    "pop2021": 3175130,
+    "GrowthRate": "5.3052",
+    "popDensity": "4295.9841"
+  },
+  {
+    "CTYNAME": "Riverside County",
+    "pop2021": 2520060,
+    "GrowthRate": "14.4660",
+    "popDensity": "3409.6675"
+  },
+  {
+    "CTYNAME": "San Bernardino County",
+    "pop2021": 2206750,
+    "GrowthRate": "8.1290",
+    "popDensity": "2985.7558"
+  },
+  {
+    "CTYNAME": "Santa Clara County",
+    "pop2021": 1918880,
+    "GrowthRate": "7.4377",
+    "popDensity": "2596.2647"
+  },
+  {
+    "CTYNAME": "Alameda County",
+    "pop2021": 1680480,
+    "GrowthRate": "11.0701",
+    "popDensity": "2273.7070"
+  },
+  {
+    "CTYNAME": "Sacramento County",
+    "pop2021": 1578680,
+    "GrowthRate": "11.0667",
+    "popDensity": "2135.9706"
+  },
+  {
+    "CTYNAME": "Contra Costa County",
+    "pop2021": 1159540,
+    "GrowthRate": "10.1659",
+    "popDensity": "1568.8697"
+  },
+  {
+    "CTYNAME": "Fresno County",
+    "pop2021": 1013400,
+    "GrowthRate": "8.7294",
+    "popDensity": "1371.1408"
+  },
+  {
+    "CTYNAME": "Kern County",
+    "pop2021": 913090,
+    "GrowthRate": "8.5725",
+    "popDensity": "1235.4203"
+  },
+  {
+    "CTYNAME": "San Francisco County",
+    "pop2021": 883255,
+    "GrowthRate": "9.6523",
+    "popDensity": "1195.0533"
+  },
+  {
+    "CTYNAME": "Ventura County",
+    "pop2021": 841734,
+    "GrowthRate": "2.0164",
+    "popDensity": "1138.8749"
+  },
+  {
+    "CTYNAME": "San Joaquin County",
+    "pop2021": 781462,
+    "GrowthRate": "13.7289",
+    "popDensity": "1057.3263"
+  },
+  {
+    "CTYNAME": "San Mateo County",
+    "pop2021": 762357,
+    "GrowthRate": "5.9272",
+    "popDensity": "1031.4770"
+  },
+  {
+    "CTYNAME": "Stanislaus County",
+    "pop2021": 555728,
+    "GrowthRate": "7.8780",
+    "popDensity": "751.9058"
+  },
+  {
+    "CTYNAME": "Sonoma County",
+    "pop2021": 485722,
+    "GrowthRate": "0.1995",
+    "popDensity": "657.1869"
+  },
+  {
+    "CTYNAME": "Tulare County",
+    "pop2021": 469407,
+    "GrowthRate": "5.9684",
+    "popDensity": "635.1126"
+  },
+  {
+    "CTYNAME": "Solano County",
+    "pop2021": 451479,
+    "GrowthRate": "9.0616",
+    "popDensity": "610.8558"
+  },
+  {
+    "CTYNAME": "Santa Barbara County",
+    "pop2021": 447937,
+    "GrowthRate": "5.5880",
+    "popDensity": "606.0634"
+  },
+  {
+    "CTYNAME": "Monterey County",
+    "pop2021": 434283,
+    "GrowthRate": "4.3014",
+    "popDensity": "587.5894"
+  },
+  {
+    "CTYNAME": "Placer County",
+    "pop2021": 410327,
+    "GrowthRate": "17.2293",
+    "popDensity": "555.1767"
+  },
+  {
+    "CTYNAME": "Merced County",
+    "pop2021": 284738,
+    "GrowthRate": "10.9134",
+    "popDensity": "385.2535"
+  },
+  {
+    "CTYNAME": "San Luis Obispo County",
+    "pop2021": 282625,
+    "GrowthRate": "4.7527",
+    "popDensity": "382.3946"
+  },
+  {
+    "CTYNAME": "Santa Cruz County",
+    "pop2021": 271957,
+    "GrowthRate": "3.3479",
+    "popDensity": "367.9607"
+  },
+  {
+    "CTYNAME": "Marin County",
+    "pop2021": 257154,
+    "GrowthRate": "1.6805",
+    "popDensity": "347.9321"
+  },
+  {
+    "CTYNAME": "Yolo County",
+    "pop2021": 221264,
+    "GrowthRate": "10.0416",
+    "popDensity": "299.3725"
+  },
+  {
+    "CTYNAME": "El Dorado County",
+    "pop2021": 197037,
+    "GrowthRate": "8.7785",
+    "popDensity": "266.5931"
+  },
+  {
+    "CTYNAME": "Butte County",
+    "pop2021": 196880,
+    "GrowthRate": "-10.4883",
+    "popDensity": "266.3807"
+  },
+  {
+    "CTYNAME": "Shasta County",
+    "pop2021": 180822,
+    "GrowthRate": "2.0014",
+    "popDensity": "244.6541"
+  },
+  {
+    "CTYNAME": "Imperial County",
+    "pop2021": 180599,
+    "GrowthRate": "3.3672",
+    "popDensity": "244.3523"
+  },
+  {
+    "CTYNAME": "Madera County",
+    "pop2021": 158217,
+    "GrowthRate": "4.7892",
+    "popDensity": "214.0693"
+  },
+  {
+    "CTYNAME": "Kings County",
+    "pop2021": 156056,
+    "GrowthRate": "2.4191",
+    "popDensity": "211.1454"
+  },
+  {
+    "CTYNAME": "Napa County",
+    "pop2021": 135654,
+    "GrowthRate": "-0.8080",
+    "popDensity": "183.5413"
+  },
+  {
+    "CTYNAME": "Humboldt County",
+    "pop2021": 134186,
+    "GrowthRate": "-0.6096",
+    "popDensity": "181.5551"
+  },
+  {
+    "CTYNAME": "Nevada County",
+    "pop2021": 100249,
+    "GrowthRate": "1.4769",
+    "popDensity": "135.6379"
+  },
+  {
+    "CTYNAME": "Sutter County",
+    "pop2021": 98217,
+    "GrowthRate": "3.6580",
+    "popDensity": "132.8886"
+  },
+  {
+    "CTYNAME": "Mendocino County",
+    "pop2021": 85445,
+    "GrowthRate": "-2.6811",
+    "popDensity": "115.6080"
+  },
+  {
+    "CTYNAME": "Yuba County",
+    "pop2021": 80890,
+    "GrowthRate": "11.8068",
+    "popDensity": "109.4450"
+  },
+  {
+    "CTYNAME": "Tehama County",
+    "pop2021": 67216,
+    "GrowthRate": "5.7537",
+    "popDensity": "90.9440"
+  },
+  {
+    "CTYNAME": "San Benito County",
+    "pop2021": 65490,
+    "GrowthRate": "17.9660",
+    "popDensity": "88.6087"
+  },
+  {
+    "CTYNAME": "Lake County",
+    "pop2021": 64524,
+    "GrowthRate": "-0.3259",
+    "popDensity": "87.3016"
+  },
+  {
+    "CTYNAME": "Tuolumne County",
+    "pop2021": 54660,
+    "GrowthRate": "-0.9603",
+    "popDensity": "73.9556"
+  },
+  {
+    "CTYNAME": "Calaveras County",
+    "pop2021": 46319,
+    "GrowthRate": "1.8716",
+    "popDensity": "62.6701"
+  },
+  {
+    "CTYNAME": "Siskiyou County",
+    "pop2021": 43517,
+    "GrowthRate": "-3.1621",
+    "popDensity": "58.8790"
+  },
+  {
+    "CTYNAME": "Amador County",
+    "pop2021": 40446,
+    "GrowthRate": "6.7571",
+    "popDensity": "54.7239"
+  },
+  {
+    "CTYNAME": "Lassen County",
+    "pop2021": 30483,
+    "GrowthRate": "-12.4831",
+    "popDensity": "41.2438"
+  },
+  {
+    "CTYNAME": "Glenn County",
+    "pop2021": 29245,
+    "GrowthRate": "3.9748",
+    "popDensity": "39.5688"
+  },
+  {
+    "CTYNAME": "Del Norte County",
+    "pop2021": 27956,
+    "GrowthRate": "-2.1354",
+    "popDensity": "37.8248"
+  },
+  {
+    "CTYNAME": "Colusa County",
+    "pop2021": 21805,
+    "GrowthRate": "1.7167",
+    "popDensity": "29.5024"
+  },
+  {
+    "CTYNAME": "Plumas County",
+    "pop2021": 18939,
+    "GrowthRate": "-4.8961",
+    "popDensity": "25.6247"
+  },
+  {
+    "CTYNAME": "Inyo County",
+    "pop2021": 18225,
+    "GrowthRate": "-1.5450",
+    "popDensity": "24.6586"
+  },
+  {
+    "CTYNAME": "Mariposa County",
+    "pop2021": 16799,
+    "GrowthRate": "-8.0867",
+    "popDensity": "22.7292"
+  },
+  {
+    "CTYNAME": "Mono County",
+    "pop2021": 14526,
+    "GrowthRate": "1.8868",
+    "popDensity": "19.6538"
+  },
+  {
+    "CTYNAME": "Trinity County",
+    "pop2021": 11721,
+    "GrowthRate": "-14.7874",
+    "popDensity": "15.8586"
+  },
+  {
+    "CTYNAME": "Modoc County",
+    "pop2021": 8923,
+    "GrowthRate": "-7.9534",
+    "popDensity": "12.0729"
+  },
+  {
+    "CTYNAME": "Sierra County",
+    "pop2021": 3021,
+    "GrowthRate": "-6.1801",
+    "popDensity": "4.0874"
+  },
+  {
+    "CTYNAME": "Alpine County",
+    "pop2021": 1209,
+    "GrowthRate": "4.1344",
+    "popDensity": "1.6358"
+  }
+]
