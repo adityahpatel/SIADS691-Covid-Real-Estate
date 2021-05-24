@@ -61,7 +61,8 @@ https://github.com/nytimes/covid-19-data/tree/master/rolling-averages
 Real Estate Transaction Data
 https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot
 
-* Informational resource for descriptive purposes or referenced for calculations. 
+
+Informational resource for descriptive purposes or referenced for calculations.(*) 
 
 Area Median Income Data*
 https://www2.census.gov/programs-surveys/saipe/datasets/2019/2019-state-and-county/est19all.xls
