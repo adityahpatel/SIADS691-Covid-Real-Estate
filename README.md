@@ -1,58 +1,79 @@
 # SIADS691-Covid-Real-Estate
 Aditya & Chris
 
-THIS NOTEBOOK SUCCESSFULLY PULLS ALL HOME SALES TRANSACTIONS IN EACH OF THE 74 COUNTIES IN CALIFORNIA using ATTOM API. 
-For each county, 1 text file is generated. This means 74 files will be generated. 71 are generated as 3 counties have no transactions with our criteria
-
-
-Each of these generated files is imported & converted into pandas dataframe making it easy to work with.
-
-The following variables in the code can be easily changed to expand or contract search results. Currently we set:
-1) FROM DATE - 1st Oct 2019 (Covid start)
+## Step 1: Pull ATTOM Data
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/00.API_CA.ipynb
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/00.API_NY.ipynb
+These two notebooks pull real estate transaction in each of the 74 California counties and 90 New York Counties.
+#### Maximum API results returned per query is limited to 10,000 
+Using custom function salesdata_scraper_bycounty() used on https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot to query:
+1) FROM DATE - 1st January 2019
 2) TO DATE - 1st April 2021
-3) Minimum transaction size - $500K
-4) Maximum transaction size - $5M
+3) Minimum transaction size - $200K
+4) Maximum transaction size - $50M
+5) County_geoid
 
-Set the maximum number of records fetched with each API call to be 50,000 which is more than sufficient. This is through the ‘pagesize’ query parameter.
+Each of these generated a JSON file, which is saved in: (https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/tree/main/datasets) 
 
-####  -------------------- Documentation on challenges --------------------------
+The incremental time slicing method left us with 322 files for California, 166 New York files and over 1.5 million transaction records with 43 features for transactions between January 1, 2019 to March 4, 2021
+ 
+## Step 2: Dask Setup : Data Manipulation
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/01.DASK_Setup_Processing_API_Files.ipynb
 
-API Challenges:
+## Step 3: Exploratory Data Analysis
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/02.EDA.ipynb
+- Due to data integrity issues we decide to focus on California. Specifically Los Angeles & San Francisco
 
-1) Data is very granulated.
-First find the geoID for all counties using the Area endpoint. Then iterate over geoID for all transactions using /properties/sale endpoint
+## Step 4: Correlation Analysis California
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/03.Correlation_CA.ipynb
+- Regression line
+- AutoCorrelation
+- Time Decomposition
+## Step 5: Causal Inference 
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/04.Causal%20Inference_Piece.ipynb
+- Difference in Difference Method
 
-2) Could not iterate over 74 counties with 74 API calls. After about 15 calls, the status header itself was not returned. 
-Solution: Ran in batches of 10 api calls. So 10 counties in 1 for loop. Do this 7 times.
+Treatment Variable: 7-day Rolling Average Per 100k
+Outcome Variable: Median home price of Single Family Homes (in USD)
 
-3) Usage limits exceeded
-Solution: created another developer account for new API key
+Treatment group: Los Angeles County   
+Control group: San Francisco County
 
-4) Determining how to run API calls so as to not meet the 250 call limit. How to split up the counties? Some had 100 transactions and some had 100,000 transactions. But we wouldn't know which county had how much without making API call. So used up a lot of calls in this process. 
+Post-Treatment Period: 
+June 22, 2020 to July 22, 2020
 
-6) Problem we ran into was API call returns 10,000 records maximum. 
-Solution: For year 2019, make 74 API calls. 10 of those truncated i.e. fetched only 10,000 records. 6 of those 10 had over 10,000 transactions in 6 months, so made more 
-API calls with time duration of 2 months. 1 of those 6 had more than 10,000 records in 2 months, so had to split again and run API calls for that county CO06037. Turns out
-that was Los Angeles county. Total of 110 API calls were made in semi-automatic/manual way. This is excluding over other exploratory calls to figure out which county gave how many transactions. We had a limit of monthly 250 calls and we exhausted those with 2019 year alone!
+Pre-Treatment Period: 
+June 22, 2019 to July 22, 2019
 
-5) Hit monthly limit of 250 calls. We had FULL data without truncation but only for 1 year i.e. 2019. Went on other macbook and created new attom api developer account in spouse's name and started fetching data for 2020. Just 250 calls is too low.  
+## Step 6: Report
+https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/final_exports_pdf_charts_pkl/57-cwestend-adityahp.pdf
 
+- Charts, python objects(pkl), and PDF exported to final_exports_pdf_charts_pkl folder
 
 ####  -------------------- Data Sets --------------------------
 
-COVID-19 DATASETS:
+Covid-19 Cumulative Data
+https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
 
-1) CDC_COVID-19_Case_Surveillance_Public_Use_Data_with_Geography.csv 
-( source: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4 )
+Covid-19 Rolling Data
+https://github.com/nytimes/covid-19-data/tree/master/rolling-averages
 
-2) jh_time_series_covid19_confirmed_US.csv , jh_time_series_covid19_deaths_US.csv
-( source: )
+Real Estate Transaction Data
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot
 
-3) nyt-us-counties.csv ( source: https://github.com/nytimes/covid-19-data)
+* Informational resource for descriptive purposes or referenced for calculations. 
 
-INCOME DATASETS:
+Area Median Income Data*
+https://www2.census.gov/programs-surveys/saipe/datasets/2019/2019-state-and-county/est19all.xls
 
-1) est19-all_income.xls , est19-ca_income.csv , est19-nj_income.csv , est19-ny_income.csv
-( source: https://github.com/CSSEGISandData/COVID-19  )
+Mortgage Rates*
+http://www.freddiemac.com/pmms/docs/30yr_pmmsmnth.xls
 
-REAL ESTATE DATASETS:
+Home Price Index*
+https://fred.stlouisfed.org/series/CSUSHPISA
+
+CA Population Data*
+https://worldpopulationreview.com/us-counties/states/ca
+
+NY Population Data*
+https://worldpopulationreview.com/us-counties/states/ny
