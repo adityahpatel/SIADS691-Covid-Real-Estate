@@ -1,5 +1,6 @@
-# SIADS691-Covid-Real-Estate
-Aditya & Chris
+# Covid-19’s Impact on the Value of Single Family Residences 
+
+Authored by: Aditya & Chris
 
 ## Step 1: Pull ATTOM Data
 https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/00.API_CA.ipynb
@@ -50,7 +51,7 @@ https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/final_expor
 
 - Charts, python objects(pkl), and PDF exported to final_exports_pdf_charts_pkl folder
 
-####  -------------------- Data Sets --------------------------
+##  -------------------- Data Sets --------------------------
 
 Covid-19 Cumulative Data
 https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
@@ -61,7 +62,8 @@ https://github.com/nytimes/covid-19-data/tree/master/rolling-averages
 Real Estate Transaction Data
 https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot
 
-* Informational resource for descriptive purposes or referenced for calculations. 
+
+Informational resource for descriptive purposes or referenced for calculations.(*) 
 
 Area Median Income Data*
 https://www2.census.gov/programs-surveys/saipe/datasets/2019/2019-state-and-county/est19all.xls
