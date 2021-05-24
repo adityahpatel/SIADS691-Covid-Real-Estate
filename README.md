@@ -50,7 +50,7 @@ https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/final_expor
 
 - Charts, python objects(pkl), and PDF exported to final_exports_pdf_charts_pkl folder
 
-####  -------------------- Data Sets --------------------------
+##  -------------------- Data Sets --------------------------
 
 Covid-19 Cumulative Data
 https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
