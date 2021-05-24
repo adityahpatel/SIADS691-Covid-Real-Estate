@@ -1,5 +1,6 @@
-# SIADS691-Covid-Real-Estate
-Aditya & Chris
+# Covid-19’s Impact on the Value of Single Family Residences 
+
+Authored by: Aditya & Chris
 
 ## Step 1: Pull ATTOM Data
 https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/00.API_CA.ipynb
