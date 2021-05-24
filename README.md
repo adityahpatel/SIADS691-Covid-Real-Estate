@@ -29,7 +29,7 @@ https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/02.EDA.ipyn
 https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/03.Correlation_CA.ipynb
 - Regression line
 - AutoCorrelation
-- Time Decomposition
+- Frequency Decomposition
 ## Step 5: Causal Inference 
 https://github.com/adityahpatel/SIADS691-Covid-Real-Estate/blob/main/04.Causal%20Inference_Piece.ipynb
 - Difference in Difference Method
